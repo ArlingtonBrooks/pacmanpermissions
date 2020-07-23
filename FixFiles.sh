@@ -146,7 +146,7 @@ response="n"
 
 echo "Remove temporary files? (y/n): "
 read response
-while [ "$response" != "y" && "$response" != "n" ]
+while [ "$response" != "y" ] && [ "$response" != "n" ]
 do
 	echo "BAD RESPONSE!"
 	echo "Remove temporary files? (y/n): "
@@ -154,7 +154,7 @@ do
 done
 if [ "$response" == "y" ]
 then
-	rm /tmp/permissions.tmp
+	rm /tmp/permission.tmp
 	rm /tmp/ownership.tmp
 	rm /tmp/groupie.tmp
 fi
