@@ -130,7 +130,7 @@ read response
 if [ "$response" == "y" ]
 then
 	echo "Response: $response == y.  Modifying files..."
-	readarray -t groupies < /tmp/groupies.tmp
+	readarray -t groupies < /tmp/groupie.tmp
 	for i in "${groupies[@]}"
 	do
 		FILE=`echo $i | cut -d "'" -f2`
