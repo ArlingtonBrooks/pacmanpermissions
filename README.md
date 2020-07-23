@@ -6,5 +6,5 @@ This is a simple shell script for anyone who's messed up their file system permi
 This is a possible solution to fix permissions on Arch using pacman.  There is no guarantee.  
 
 
-#KNOWN BUGS
+# KNOWN BUGS
 Any files containing the words "permission" or "UID" or "GID" will cause some strange behavior since the file lists are retrieved using a simple 'grep'.  
