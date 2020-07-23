@@ -3,7 +3,7 @@
 ###############################################################################
 # Permissions Fix                                                             #
 #    This script checks file permissions and ownership and fixes them on Arch #
-#    If you have accidentally chrooted an important directory, this can help. #
+#    If you have accidentally chmodded an important directory, this can help. #
 #    NOTE:                                                                    #
 #        This software is provided as-is and without any warranty or          #
 #        guarantee.  USE AT YOUR OWN RISK!                                    #
